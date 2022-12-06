@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Website</title>
+    <link rel="stylesheet" href="C:\Users\Dell\Desktop\food restraunt.css" />
+    <script
+      src="https://kit.fontawesome.com/7a4b62b0a4.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 60px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="navigation container">
+        <div class="logo_container">
+          <img src="C:\Users\Dell\Downloads\logo.png" alt="logo" height="200" width="300" />
+        </div>
+        <div class="bar_icon">
+            <div class="dropdown">
+              <i class="fas fa-bars"></i>
+              <div class="dropdown-content">
+                <a href="#">ORDER</a>
+                <a href="#">DELIVER </a>
+                <a href="#">EXPLORE</a>
+              </div>
+            </div>
+            
+          </i>
+        </div>
+      </div>
+    </nav>
+    <!-- Hero Section -->
+    <div class="container">
+      <div class="hero">
+        <div class="hero_image">
+          <img src="C:\Users\Dell\Pictures\Screenshot (130).png" alt="hero image" height="700" width="600"/>
+        </div>
+        <div class="hero_content">
+          <div class="tag">30% Off on All Products</div>
+          <h1>Enjoy Rich Flavours Of Food </h1>
+          <p>
+            A la carte meals
+          </p>
+          <button class="explore_btn">Explore Now</button>
+        </div>
+      </div>
+      <section class="features">
+        <div class="feature">
+          <img src="C:\Users\Dell\Pictures\Screenshot (147).png" alt="discount" />
+          <div class="feature_content">
+            <h3>Discount Voucher</h3>
+            Get upto 30% discount on various jumbo meals
+          </div>
+        </div>
+        <div class="feature">
+          <img src="C:\Users\Dell\Pictures\Screenshot (158).png" alt="food" />
+          <div class="feature_content">
+            
+            <a href="C:\Users\Dell\Desktop\index.html"><h3>Fresh Healthy Food</h3></a>
+            
+          <div class="feature_content">
+            <h3>Free Home Delivery</h3>
+             
+          </div>
+        </div>
+      </section>
+      <div class="divider"></div>
+      <div class="menu">
+        <div class="tag">Our Menu</div>
+        <h2>Explore Our Menu</h2>
+
+        <div class="grid">
+          <div class="item1">
+            <img
+              class="grid-image"
+              src="C:\Users\Dell\Pictures\Screenshot (136).png"
+              alt="image 1"
+            />
+          </div>
+          <div class="item2">
+            <img
+              class="grid-image"
+              src="C:\Users\Dell\Pictures\Screenshot (138).png"
+              alt="image 2"
+            />
+          </div>
+          <div class="item3">
+            <img
+              class="grid-image"
+              src="C:\Users\Dell\Pictures\Screenshot (137).png"
+              alt="image 3"
+            />
+          </div>
+          <div class="item4">
+            <img
+              class="grid-image"
+              src="C:\Users\Dell\Pictures\Screenshot (135).png"
+              alt="image 4"
+            />
+          </div>
+          <div class="item5">
+            <img
+              class="grid-image"
+              src="C:\Users\Dell\Pictures\Screenshot (140).png"
+              alt="image 5"
+            />
+          </div>
+          <div class="item6">
+            <img
+              class="grid-image"
+              src="C:\Users\Dell\Pictures\Screenshot (134).png"
+              alt="image 6"
+            />
+          </div>
+          <div class="item7">
+            <img
+              class="grid-image"
+              src="C:\Users\Dell\Pictures\Screenshot (139).png"
+              alt="image 7"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer_container container">
+        <div class="footer_logo">
+          <img src="C:\Users\Dell\Downloads\logo.png" alt="logo" />
+        </div>
+        <div class="link_lists">
+          <h3>Main Links</h3>
+          <ul>
+            <li>Order Tracking</li>
+            <li>New Order</li>
+            <li>Contact Us</li>
+            <li>News & Blogs</li>
+          </ul>
+        </div>
+        <div class="link_lists">
+          <h3>Support
+            
+          </h3>
+          
+          <ul>
+            <li>About Us</li>
+            <li>Privacy Policy</li>
+            <li>Terms & Conditons</li>
+          </ul>
+        </div>
+        <div class="news_letter">
+          <h3>Support
+            
+          </h3>
+          <input type="email" placeholder="Enter your Email..." />
+          <button type="button" onclick="bbc()"> ENTER</button>
+      <script>
+      function bbc()
+      {
+      alert("THANK YOU")
+      }</script>
+          <h3>Follow Us</h3>
+          <div class="icon_container">
+            <div class="icon">
+              <i class="fa fa-facebook">Facebook</i>
+            </div>
+            <div class="icon">
+              <i class="fa fa-twitter" aria-hidden="true">Twitter</i>
+            </div>
+            <div class="icon">
+              <i class="fa fa-instagram" aria-hidden="true">Instagram</i>
+            </div>
+            <div class="icon">
+              <i class="fa fa-youtube" aria-hidden="true">Youtube</i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
